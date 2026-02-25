@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="fi">
+    <title>Peikkopiha - Maagista viherrakennusta</title>
+
+ <head>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Metamorphous&family=Modern+Antiqua&display=swap" rel="stylesheet">
+
+<!--linkki ulkopuoliseen tyylitiedostoon, tulee headin sisälle-->
+        <link rel="stylesheet" href="etusivu.css"></link>
+
+
+    <!--kommentti: koodisto-->
+    <meta charset="utf-8">
+    <!-- skaalaus eri levyisille näytyöille-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- sivun omistaja-->
+     <meta name="author" content="Paju">
+     <!--kuvaus sivusta-->
+     <meta name="description" content="Fantastisia viherpalveluita ripauksella myyttisyyttä">
+  </head>
+     <style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: bisque;
+  display: flex;
+  justify-content: center;
+}
+
+ul li a {
+  display: block;
+  color:#4F494C;
+  padding: 16px 17px;
+  text-decoration: underline overline;
+}
+
+ul li a:hover {
+  background-color: #E9DAEF;
+}
+</style>
+
+   
+ 
+
+  <body>
+
+  
+
+  <header>     
+    <h1>Peikkopiha</h1>
+
+    <ul>
+  <li><a href="#palvelut">Palvelut</a></li>
+  <li><a href="#yhteysteidot">Yhteystiedot</a></li>
+  <li><a href="#meista" >Meistä</a></li>
+</ul> 
+  </header>   <!--sivun yläosa tulee headerin sisään-->
+
+ <main> <!--sivun pääsisältö-->
+
+<div class="row">
+ <div class="column">
+  <img src="istutus.jpeg" alt="runsas kukkaistutus">
+  <img src="keijumökki.jpg" alt="keijumökki">
+  <img src="kivimökki.jpg!d" alt="kivistä rakennettu pieni mökki">
+ </div>
+
+ <div class="column">
+  <img src="kukkia.jpg" alt="kukkaistutuksia pihassa">
+  <img src="labyrintti.jpg" alt="suunnitelma">
+  <img src="piha.jpg!d" alt="piha">
+  <img src="flower-garden.jpg" alt="kukkapuutarha">
+ </div>
+
+ <div class="column">
+  <img src="keijutaloja.jpeg" alt="pieniä keijutaloja">
+  <img src="pieni_viikinkipuutarha.jpg" alt="keskiaikaistyylinen puutarha">
+  <img src="tulppaanitarha.jpg" alt="tulppaanitarha">
+  <img src= "mökille.jpg" alt="idea mökille">
+ </div>
+
+ <div class="column">
+  <img src="whimsicalgarden.jpg" alt="hauska fantasiapuutarha">
+  <img src="yrttipuutarha.jpg" alt="keskiaikaistyylinen yrittypuutarha">
+  <img src="secretgarden.jpg" alt="salainen puutarha">
+ </div>
+
+</div>
+
+   <style>
+               img {width: 100%;
+                  max-width: 600px;}
+               .flex-container {display:flex;
+                              flex-direction: row;
+                           } 
+
+               .flex-container section { width: 25%;
+                                          margin: 10px;
+                                          padding: 20px;
+                                       }
+
+               @media (max-width: 600px){
+               .flex-container {
+                           flex-direction: column;
+                  }
+                  .flex-container section {width:100%}
+                  
+               }      
+            
+           </style>
+
+
+
+
+    </main>
+
+    <footer>
+    <div class="footer">
+        <div class="col-1">
+          <h3>Uutiskirje</h3>
+          <form>
+              <input type="text" placeholder="Sähköpostiosoitteesi">
+              <button type="submit">TILAA</button>
+          </form>
+        </div>
+
+        <div class="col-2">
+            <h3>Peikkoipiha Oy</h3>
+            <p>Entintie 67, 00420 ROHAN<br>
+              p. 010 555 666<br>
+              peikkopiha@mail.fi
+            </p>
+
+
+        </div>
+        
+    </div>
+  
+    </footer>
+
+
+
+
+
+</body>
+
+</html>
+ 
